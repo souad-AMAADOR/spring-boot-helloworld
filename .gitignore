@@ -29,5 +29,5 @@ target/
 .idea/
 *.iml
 
-# MacOD
+# MacOS
 .DS_Store
