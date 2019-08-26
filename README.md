@@ -5,11 +5,13 @@ Basic Hello World Application in Spring Boot! This example creates a Java execut
 ## Prerequisites
 
 - Java IDE (I am using IntelliJ CE)
+- Maven
 
 ## System Configuration at time of test
 
 - macOS High Sierra - Version 10.14.6
 - IntelliJ CE - Version CE 2019.2
+- Maven - Version 3.6.1
 
 ## Initial Setup
 
