@@ -26,6 +26,7 @@ hs_err_pid*
 target/
 
 # IntelliJ
+.idea/
 *.iml
 
 # MacOD
