@@ -32,7 +32,7 @@ Create a new Maven Java application following the steps below
 
 In the `pom.xml` file add the `spring-boot-starter-web` dependency as shown below:
 
-```
+```xml
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -49,7 +49,7 @@ Create a new package `com.ameyrupji.helloworld`
 
 Add a new Java class `Application.java` with the following code. This creates a standalone executable java application jar.
 
-```
+```java
 package com.ameyrupji.helloworld;
 
 import org.springframework.boot.SpringApplication;
@@ -75,7 +75,7 @@ The main() method uses Spring Boot’s SpringApplication.run() method to launch 
 
 Next add the `mainClass` definition to the `pom.xml` by adding the following configuration:
 
-```
+```xml
     <build>
         <plugins>
             <plugin>
@@ -104,7 +104,7 @@ Create a `controllers` package under `com.ameyrupji.helloworld` package.
 
 Add a `HelloWorldController` Java class with the following code:
 
-```
+```java
 package com.ameyrupji.helloworld.controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
@@ -127,7 +127,7 @@ public class HelloWorldController {
 
 Create an `application.properties` with the following property:
 
-```
+```sh
 server.port=9091
 ```
 
