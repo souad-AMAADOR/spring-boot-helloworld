@@ -160,5 +160,5 @@ Open Safari and go to the following url: `http://localhost:9091/helloworld/`
 - https://spring.io/guides/gs/rest-service/
 - https://www.javaguides.net/2018/10/spring-mvc-5-hello-world-example.html
 
-| [Next ▸](https://github.com/ameyrupji-k8s/docker-spring-boot-helloworld)</p> |
+| [Next ▸](https://github.com/ameyrupji-k8s/docker-spring-boot-helloworld) |
 |-----|
