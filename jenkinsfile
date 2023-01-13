@@ -1,10 +1,11 @@
 pipeline{
 agent any
 stages{
-stage(’git checkout’){
+stage('git checkout'){
 steps{
-git credentialsId: ’git_credentials’, url: ’https://github.com/ismail-09/Triang07.git’
+git 'https://github.com/souad-AMAADOR/spring-boot-helloworld.git'
 }
 }
 }
 }
+
